@@ -1,0 +1,138 @@
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    cursor: url(/img/cursor.gif), auto;
+}
+
+
+.bl01 {
+
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 10px 10px 10px 10px;
+}
+
+.bl02 {
+
+    height: 450px;
+    width: 100%;
+    position: absolute;
+    margin: 580px 0px 0px 0px;
+}
+
+.fundotop {
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    margin: -30px 0px 0px -17px;
+}
+
+.icontop {
+    position: absolute;
+}
+
+.iconesq {
+
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+}
+
+.icondir {
+
+    right: 10px;
+    margin: 45px 10px 10px 300px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(46, 45, 45);
+    margin: 20px 40px 10px 20px;
+}
+
+texto {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(46, 45, 45);
+    margin: 20px 5px 10px 20px;
+}
+
+p {
+    color: rgb(199, 197, 197);
+    align-items: center;
+    font-weight: bold;
+    margin: 25px 35px 10px 20px;
+}
+
+.dados {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 35px 10px 15px;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(46, 45, 45);
+    margin: 10px 20px 10px 20px;
+
+}
+
+strong {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4285F4;
+    margin: 10px 5px 10px 20px;
+
+}
+
+#linha-vertical {
+    height: 60px;
+    border-right: 1px solid gray;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px 15px 0px;
+}
+
+.btn-chat {
+
+    background-color: #4285F4;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    width: 70px;
+    height: 66px;
+    margin: 10px 5px 10px 10px;
+    cursor: pointer;
+}
+
+.btn-appointment {
+
+    background-color: #00C853;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    width: 280px;
+    height: 68px;
+    margin: 10px 5px 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-chat:hover,
+.btn-appointment:hover {
+
+
+    opacity: 0.9;
+}
